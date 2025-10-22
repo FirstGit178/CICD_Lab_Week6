@@ -1,6 +1,6 @@
-package ie.atu.cicd_lab3_week5.service;
+package ie.atu.cicd_lab_week6.service;
 
-import ie.atu.cicd_lab3_week5.model.Passenger;
+import ie.atu.cicd_lab_week6.model.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

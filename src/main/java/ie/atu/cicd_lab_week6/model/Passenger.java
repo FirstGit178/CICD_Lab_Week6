@@ -1,4 +1,4 @@
-package ie.atu.cicd_lab3_week5.model;
+package ie.atu.cicd_lab_week6.model;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

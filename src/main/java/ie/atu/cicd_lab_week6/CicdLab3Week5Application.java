@@ -1,4 +1,4 @@
-package ie.atu.cicd_lab3_week5;
+package ie.atu.cicd_lab_week6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

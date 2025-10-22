@@ -1,8 +1,8 @@
-package ie.atu.cicd_lab3_week5.controller;
+package ie.atu.cicd_lab_week6.controller;
 
 
-import ie.atu.cicd_lab3_week5.model.Passenger;
-import ie.atu.cicd_lab3_week5.service.PassengerService;
+import ie.atu.cicd_lab_week6.model.Passenger;
+import ie.atu.cicd_lab_week6.service.PassengerService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
