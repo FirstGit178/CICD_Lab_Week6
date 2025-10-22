@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 
 @Data @NoArgsConstructor
 @AllArgsConstructor @Builder
+
 public class Passenger {
     @NotBlank @Size(max=40)
     private String passengerId;
@@ -18,8 +19,7 @@ public class Passenger {
     private String name;
 
     @NotBlank(message = "Email is required")                   // add prompt message
-    @Email(message = "Email must be a valid address")                          // add error message
-
+    @Email(message = "Email must be a valid address")          // add error message
     private String email;
 }
 
