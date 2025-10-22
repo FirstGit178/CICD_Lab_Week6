@@ -17,6 +17,7 @@ public class Passenger {
     @NotBlank @Size(max=60)
     private String name;
 
-    @NotBlank @Email
+    @NotBlank(message = "Email is required")                   // add prompt message
+    @Email(message = "Email must be a valid address")                          // add error message
     private String email;
 }
